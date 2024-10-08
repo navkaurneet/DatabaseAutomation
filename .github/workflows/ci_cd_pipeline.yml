@@ -39,7 +39,7 @@ jobs:
             database='${{ env.DB_NAME }}'
         );
         cursor = conn.cursor();
-        with open('update_projects_schema.sql', 'r') as file:
+        with open('add_departments.sql', 'r') as file:
             sql_script = file.read();
         for statement in sql_script.split(';'):
             if statement.strip():
