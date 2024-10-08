@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS projects (
     end_date DATE
 );
 
+
 -- Adding a new column 'budget' to above 'projects' table
 ALTER TABLE projects
 ADD COLUMN budget_2 DECIMAL(10, 2);
