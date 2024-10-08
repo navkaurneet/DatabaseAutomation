@@ -10,4 +10,4 @@ CREATE TABLE IF NOT EXISTS projects (
 
 -- Adding a new column 'budget' to above 'projects' table
 ALTER TABLE projects
-ADD COLUMN budget DECIMAL(10, 2);
+ADD COLUMN budget_2 DECIMAL(10, 2);
