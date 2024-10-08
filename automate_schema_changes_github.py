@@ -6,7 +6,7 @@ connection = pymysql.connect(
     host='nav-database.mysql.database.azure.com',   # Azure Database
     user='root_nav',        # Database username
     password='Secret55', # Database password
-    database='firstdb'   # Name of the database to connect to
+    database='companydb'   # Name of the database to connect to
 )
 
 # Path to the SQL file that contains the schema changes
